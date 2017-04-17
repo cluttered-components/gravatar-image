@@ -1,38 +1,31 @@
-# \<gravatar-image\>
+# &lt;gravatar-image&gt;
 
-Gravatar Image
+[![license](https://img.shields.io/github/license/cluttered-components/gravatar-image.svg)](https://raw.githubusercontent.com/cluttered-components/gravatar-image/master/LICENSE)
+[![Build Status](https://travis-ci.org/cluttered-components/gravatar-image.svg?branch=master)](https://travis-ci.org/cluttered-components/gravatar-image)
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://beta.webcomponents.org/element/cluttered-components/gravatar-image)
 
-## Install the Polymer-CLI
+`gravatar-image` Display gravatar icon
 
-First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polymer-cli) installed. Then run `polymer serve` to serve your application locally.
-
-## Viewing Your Application
-
+<!--
 ```
-$ polymer serve
+<custom-element-demo>
+  <template>
+    <script src="../webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="gravatar-image.html">
+    <style>
+      .center-white-on-black {
+        background-color: #000;
+        color: #fff;
+        text-align: center
+      }
+    </style>
+    <div class="center-white-on-black">
+      <next-code-block></next-code-block>
+    </div>
+  </template>
+</custom-element-demo>
 ```
-
-## Building Your Application
-
+-->
+```html
+<gravatar-image email="cluttered.code@gmail.com"></gravatar-image>
 ```
-$ polymer build
-```
-
-This will create a `build/` folder with `bundled/` and `unbundled/` sub-folders
-containing a bundled (Vulcanized) and unbundled builds, both run through HTML,
-CSS, and JS optimizers.
-
-You can serve the built versions by giving `polymer serve` a folder to serve
-from:
-
-```
-$ polymer serve build/bundled
-```
-
-## Running Tests
-
-```
-$ polymer test
-```
-
-Your application is already set up to be tested via [web-component-tester](https://github.com/Polymer/web-component-tester). Run `polymer test` to run your application's test suite locally.
