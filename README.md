@@ -1,10 +1,9 @@
 # &lt;gravatar-image&gt;
 
-[![license](https://img.shields.io/github/license/cluttered-components/gravatar-image.svg)](https://raw.githubusercontent.com/cluttered-components/gravatar-image/master/LICENSE)
-[![Build Status](https://travis-ci.org/cluttered-components/gravatar-image.svg?branch=master)](https://travis-ci.org/cluttered-components/gravatar-image)
-[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://beta.webcomponents.org/element/cluttered-components/gravatar-image)
+Display a gravatar image
 
-`gravatar-image` Display gravatar icon
+[![license](https://img.shields.io/github/license/cluttered-components/gravatar-image.svg)](https://raw.githubusercontent.com/cluttered-components/gravatar-image/master/LICENSE)
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://beta.webcomponents.org/element/cluttered-components/gravatar-image)
 
 <!--
 ```
