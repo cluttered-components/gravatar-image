@@ -60,7 +60,7 @@ Gravatar Image
       },
 
       _parseFallback: function(fallback) {
-        var validFallbacks = [ '404', 'mm', 'identicon', 'monsterid', 'wavatar', 'retro', 'blank', 'y' ];
+        var validFallbacks = [ '404', 'mm', 'identicon', 'monsterid', 'wavatar', 'retro', 'blank' ];
         if(validFallbacks.indexOf(fallback) === -1) {
           return encodeURI(fallback);
         }
