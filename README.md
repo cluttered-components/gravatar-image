@@ -13,13 +13,11 @@
     <script src="../webcomponentsjs/webcomponents-lite.js"></script>
     <link rel="import" href="gravatar-image.html">
     <style>
-      .center-white-on-black {
-        background-color: #000;
-        color: #fff;
+      .center {
         text-align: center
       }
     </style>
-    <div class="center-white-on-black">
+    <div class="center">
       <next-code-block></next-code-block>
     </div>
   </template>
@@ -28,6 +26,8 @@
 -->
 ```html
 <gravatar-image email="cluttered.code@gmail.com"></gravatar-image>
+<gravatar-image email="cluttered.code@gmail.com" size="128"></gravatar-image>
+<gravatar-image email="invalid_email" fallback="mm"></gravatar-image>
 ```
 
 ## Options
