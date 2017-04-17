@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>gravatar-image demo</title>
+
+    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+
+    <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
+    <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
+    <link rel="import" href="../gravatar-image.html">
+
+    <style is="custom-style" include="demo-pages-shared-styles">
+    </style>
+  </head>
+  <body>
+    <div class="vertical-section-container centered">
+      <h3>Basic gravatar-image demo</h3>
+      <demo-snippet>
+        <template>
+          <gravatar-image email="cluttered.code@gmail.com"></gravatar-image>
+        </template>
+      </demo-snippet>
+      <h3>Sizing gravatar-image demo</h3>
+      <demo-snippet>
+        <template>
+          <gravatar-image email="cluttered.code@gmail.com" size="32"></gravatar-image>
+          <gravatar-image email="cluttered.code@gmail.com" size="64"></gravatar-image>
+          <gravatar-image email="cluttered.code@gmail.com" size="128"></gravatar-image>
+          <gravatar-image email="cluttered.code@gmail.com" size="256"></gravatar-image>
+        </template>
+      </demo-snippet>
+      <h3>Fallback gravatar-image demo</h3>
+      <demo-snippet>
+        <template>
+          <p>404:</p><gravatar-image email="invalid_email"></gravatar-image>
+          <p>mm:</p><gravatar-image email="invalid_email" fallback="mm"></gravatar-image>
+          <p>identicon:</p><gravatar-image email="invalid_email" fallback="identicon"></gravatar-image>
+          <p>monsterid:</p><gravatar-image email="invalid_email" fallback="monsterid"></gravatar-image>
+          <p>wavatar:</p><gravatar-image email="invalid_email" fallback="wavatar"></gravatar-image>
+          <p>retro:</p><gravatar-image email="invalid_email" fallback="retro"></gravatar-image>
+          <p>blank:</p><gravatar-image email="invalid_email" fallback="blank"></gravatar-image>
+          <p>static image:</p><gravatar-image email="invalid_email" fallback="http://www.driveplayer.com/third-party/github-logo/github-logo.png"></gravatar-image>          
+        </template>
+      </demo-snippet>
+    </div>
+  </body>
+</html>
