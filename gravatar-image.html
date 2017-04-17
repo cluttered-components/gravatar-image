@@ -55,7 +55,7 @@
 
       _boundSize: function(size) {
         var MIN = 1, MAX = 2048;
-        return Math.min(MAX, Math.max(MIN, size));
+        return Math.round(Math.min(MAX, Math.max(MIN, size)));
       },
 
       _enumRating: function(rating) {
