@@ -29,3 +29,12 @@
 ```html
 <gravatar-image email="cluttered.code@gmail.com"></gravatar-image>
 ```
+
+## Options
+
+|   Attribute   | Options  |              Default               |                      Description                                              |
+| ------------- | -------- | ---------------------------------- | ----------------------------------------------------------------------------- |
+| `email`       | *string* | <EMPTY>                            | Your gravatar email                                                           |
+| `rating`      | *string* | `g`                                | image rating (g, pg, r, x)                                                    |
+| `size`        | *int*    | `80`                               | The img size                                                                  |
+| `fallback`    | *string* | `404`                              | fallback on failure (404, mm, identicon, monsterid, wavatar, retro, blank, y) |
